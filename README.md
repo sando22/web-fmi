@@ -1,1 +1,1 @@
-# Homeworks for a web course
+# Homework for a web course
