@@ -15,12 +15,6 @@ class HomeworkTwoUtils
 
     static function showNav($data, $pageId)
     {
-        /*
-         * <nav>
-            <a href="?page=webgl" class="selected"> Компютърна графика с WebGL </a>
-            <a href="?page=go"> Програмиране с Go </a>
-            </nav>
-        */
         $result = "<nav>";
 
         foreach ($data as $course => $courseData) {
