@@ -19,8 +19,13 @@ $data = [
     ]
 ];
 
-echo HomeworkTwoUtils::showPage($data, $_GET[PAGE_ID]);
-echo HomeworkTwoUtils::showNav($data, $_GET[PAGE_ID]);
+
+if ($_GET) {
+    echo HomeworkTwoUtils::showNav($data, $_GET[PAGE_ID]);
+    echo HomeworkTwoUtils::showPage($data, $_GET[PAGE_ID]);
+} else {
+    echo HomeworkTwoUtils::showNav($data, null);
+}
 ?>
 </body>
 </html>

@@ -2,9 +2,9 @@
 
 class HomeworkTwoUtils
 {
-    const KEY_TITLE = "title";
-    const KEY_LECTURER = "lecturer";
-    const KEY_DESCRIPTION = "description";
+    private const KEY_TITLE = "title";
+    private const KEY_LECTURER = "lecturer";
+    private const KEY_DESCRIPTION = "description";
 
     static function showPage($data, $pageId)
     {
